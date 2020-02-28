@@ -341,24 +341,6 @@ int main()
     cout<<"30000 Iterations"<<endl;
     som.train(data, 30000);
     som.printWeights();
-
-    cout << "Neuron Hit Map" << endl;
-    som.WinnerMap();
-    cout<<endl<<endl ;
-    cout<<"50 Cluster"<<endl ;
-    som.GenerateColorMap("50.txt","50out.txt");
-    cout<<endl<<endl ;
-    cout<<"100 Cluster"<<endl ;
-    som.GenerateColorMap("100.txt","100out.txt");
-    cout<<endl ;
-    cout<<endl<<endl ;
-    cout<<"500 Cluster"<<endl ;
-    som.GenerateColorMap("500.txt","500out.txt");
-    cout<<endl ;
-    cout<<endl<<endl ;
-    cout<<"1000 Cluster"<<endl ;
-    som.GenerateColorMap("1000.txt","1000out.txt");
-    cout<<endl ;
     
     return 0;
 }
